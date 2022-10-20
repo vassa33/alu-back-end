@@ -22,6 +22,7 @@ if __name__ == '__main__':
                                  (obj["completed"] is True), todos_info))
     number_of_done_tasks = len(task_completed)
     total_number_of_tasks = len(todos_info)
+    
 
     print("Employee {} is done with tasks({}/{}):".
           format(employee_name, number_of_done_tasks, total_number_of_tasks))
